@@ -6,28 +6,28 @@
 /* ---------- Fonts ---------- */
 @font-face {
   font-family: "Monocraft";
-  src: url("../fonts/Monocraft.ttf") format("truetype");
+  src: url("Monocraft.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Monocraft";
-  src: url("../fonts/Monocraft-Bold.ttf") format("truetype");
+  src: url("Monocraft-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Monocraft";
-  src: url("../fonts/Monocraft-Black.ttf") format("truetype");
+  src: url("Monocraft-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Press Start 2P";
-  src: url("../fonts/PressStart2P.ttf") format("truetype");
+  src: url("PressStart2P.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -184,7 +184,7 @@ code { font-family: var(--font-mono); }
 .bg-noise {
   position: absolute;
   inset: 0;
-  background-image: url("../img/noise.png");
+  background-image: url("noise.png");
   background-size: 128px 128px;
   opacity: 0.045;
   mix-blend-mode: overlay;
@@ -630,18 +630,18 @@ code { font-family: var(--font-mono); }
 
 .face--top {
   transform: rotateX(90deg) translateZ(calc(var(--s) / 2));
-  background-image: url("../img/grass-top.svg");
+  background-image: url("grass-top.svg");
 }
 
 .face--front {
   transform: translateZ(calc(var(--s) / 2));
-  background-image: url("../img/grass-side.svg");
+  background-image: url("grass-side.svg");
   filter: brightness(0.93) saturate(0.95);
 }
 
 .face--right {
   transform: rotateY(90deg) translateZ(calc(var(--s) / 2));
-  background-image: url("../img/grass-side.svg");
+  background-image: url("grass-side.svg");
   filter: brightness(0.72) saturate(0.88);
 }
 
@@ -673,24 +673,24 @@ code { font-family: var(--font-mono); }
   transform: rotateX(-22deg) rotateY(-34deg);
 }
 
-.cube--stone .face--top { background-image: url("../img/stone.svg"); }
+.cube--stone .face--top { background-image: url("stone.svg"); }
 .cube--stone .face--front {
-  background-image: url("../img/stone.svg");
+  background-image: url("stone.svg");
   filter: brightness(0.82);
 }
 .cube--stone .face--right {
-  background-image: url("../img/stone.svg");
+  background-image: url("stone.svg");
   filter: brightness(0.64);
 }
 
 .cube--diamond { --s: 66px; }
-.cube--diamond .face--top { background-image: url("../img/diamond-ore.svg"); }
+.cube--diamond .face--top { background-image: url("diamond-ore.svg"); }
 .cube--diamond .face--front {
-  background-image: url("../img/diamond-ore.svg");
+  background-image: url("diamond-ore.svg");
   filter: brightness(0.84);
 }
 .cube--diamond .face--right {
-  background-image: url("../img/diamond-ore.svg");
+  background-image: url("diamond-ore.svg");
   filter: brightness(0.66);
 }
 
