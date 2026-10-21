@@ -35,9 +35,6 @@ File game **tidak** disimpan di folder ini — di-host di Google Drive.
 
 ## Download
 
-- **File:** `Flu Launcher.zip` — paket lengkap, **879 MB** (Java + assets + libraries)
-- **Link:** <https://drive.google.com/file/d/1_O7T0TQoGxig6dKVgDkUdUf92RTwyZ5M/view?usp=sharing>
-- **SHA-256:** `AB58608C19B2738DF55B6A92EA353CA27BDB88B3805A7591380AA89BF977C358`
 
 Versi Minecraft tetap diunduh saat instal pertama (butuh internet sekali);
 setelah itu game bisa dimainkan offline.
