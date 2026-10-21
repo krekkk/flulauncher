@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap project (GitHub Pages project site)
-Sitemap: https://krekkk.github.io/menkrep-loncer/sitemap.xml
+Sitemap: https://krekkk.github.io/flulauncher/sitemap.xml
