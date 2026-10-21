@@ -45,7 +45,6 @@ setelah itu game bisa dimainkan offline.
 Semua tombol download diatur dari **satu baris** di `assets/js/main.js`:
 
 ```js
-var DOWNLOAD_URL = "https://drive.google.com/file/d/1_O7T0TQoGxig6dKVgDkUdUf92RTwyZ5M/view?usp=sharing";
 ```
 
 Kalau link berubah, ganti baris itu. Link `http(s)://` otomatis dibuka di tab baru
